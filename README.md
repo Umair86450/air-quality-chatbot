@@ -39,21 +39,25 @@ To run this project, you **must provide valid API keys** for:
   ```python
   client = Groq(api_key="Your groq api key")
 ````
+Yahan aapke diye gaye Markdown section ka **accurately structured and properly formatted version** hai. Maine indentation, headings aur spacing ko clean aur consistent bana diya hai:
 
-### 2. 🌦️ **OpenWeatherMap API** (For AQI data and coordinates)
+---
 
-* Sign up at: [https://openweathermap.org/api](https://openweathermap.org/api)
-* Get your API key and replace:
+````markdown
+### 2. 🌦️ OpenWeatherMap API (For AQI data and coordinates)
+
+- Sign up at: [https://openweathermap.org/api](https://openweathermap.org/api)
+- Get your API key and replace the following line in the code:
 
   ```python
   OPENWEATHER_API_KEY = "your weather api key"
-  ```
+````
 
 ---
 
 ## 📦 Installation
 
-### ✅ Prerequisites:
+### ✅ Prerequisites
 
 * Python 3.10+
 * Virtual environment (optional but recommended)
@@ -77,6 +81,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
 ## 👤 User Inputs
 
 * **City name** for AQI
@@ -87,7 +93,7 @@ streamlit run app.py
 
 ## ❗ Important Notes
 
-* If you don't provide valid **Groq** and **OpenWeather** API keys, the app **will not function properly**.
-* All API calls depend on correct input (city names must be valid).
+* If you don't provide valid **Groq** and **OpenWeatherMap** API keys, the app **will not function properly**.
+* All API calls depend on correct input (e.g., valid city names).
 
 ---
